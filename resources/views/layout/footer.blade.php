@@ -9,9 +9,84 @@
     <script src="assets/js/scripts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.1/viewer.min.js"></script>
     <link rel="stylesheet" href="../assets/css/google.css" />
+
+    <style>
+        #headers {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #283971;
+        }
+
+        #contact-details {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 16px;
+            color: #283971;
+            width: auto;
+        }
+
+        #footer-line {
+            margin-top: 50px;
+            width: auto;
+            margin-top: 100px;
+        }
+
+        #request-button {
+            width: 140px;
+            height: 32px;
+            left: 865px;
+            top: 2714px;
+            border: none;
+            background: #283971;
+            border-radius: 30px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 16px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        #request-button:hover {
+            background-color: #A19158;
+            transition: color 5s;
+        }
+
+        #request-button:active {
+            background-color: #8D7F4D;
+        }
+
+        #footer-container {
+            margin-top: 100px;
+        }
+
+        .mail-icon {
+            margin-right: 10px;
+        }
+
+        .phone-icon {
+            margin-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .cards-body {
+            margin-top: 10px;
+            padding: 10px 15px;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Page Content-->
     <section class="pt-4 bg-light bg-gradient" style="position: relative;">
         <div class="container px-lg-5" id=footer-container>
             <!-- Page Features-->
@@ -85,6 +160,7 @@
         </div>
     </section>
 
+    <!-- Closing body and html tags -->
 </body>
 
 </html>
